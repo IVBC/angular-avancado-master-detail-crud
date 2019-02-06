@@ -45,9 +45,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/toastr/build/toastr.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/primeng.css",
+              "node_modules/primeng/resources/themes/nova-light/theme.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/chart.js/dist/Chart.bundle.js"
+
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
